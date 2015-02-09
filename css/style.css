@@ -10,9 +10,10 @@ h1 {
     font-family: sans-serif;
     color: white;
 }
-h2 {
+p {
 	font-family: sans-serif;
 	font-weight: lighter;
+	text-align: left;
 	color: #F9F8F8;
 }
 #section1 {
@@ -35,7 +36,7 @@ main {
 	right: auto;
 
 	margin-top: -100px;
-	margin-left: -250px;
+	margin-left: -200px;
 }
 
 .page-fixed-bg {

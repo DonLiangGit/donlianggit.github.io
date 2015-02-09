@@ -1,20 +1,41 @@
-body {
-	background-color: white;
-	/* Make Body No padding and margin for browsers*/
-	margin: 0;
-	padding: 0;
+html, body {
+    height:100%;
+    margin:0;
+    padding:0;
 }
-body, html, main {
+h1 {
+/*    margin:0;
+    padding:0;*/
+    display:table-cell;
+    font-family: sans-serif;
+    color: white;
+}
+h2 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: #F9F8F8;
+}
+#section1 {
+    height:90%;
+    text-align:center;
+    display:table;
+    width: 100%;
+}
+main {
 	/* important */
 	height: 100%;
 }
-h1 {
-	margin-top: 0;
-	margin-bottom: 0;
-	color: white;
+
+.page-intro {
+	position: absolute;
 	text-align: center;
-	font-family: sans-serif;
-	height: 50%
+	top: 50%;
+	left: 50%;
+	bottom: auto;
+	right: auto;
+
+	margin-top: -100px;
+	margin-left: -250px;
 }
 
 .page-fixed-bg {

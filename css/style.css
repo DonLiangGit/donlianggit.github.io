@@ -2,6 +2,7 @@ html, body {
     height:100%;
     margin:0;
     padding:0;
+    background-color: #090506;
 }
 h1 {
 /*    margin:0;
@@ -13,6 +14,7 @@ h1 {
 p {
 	font-family: sans-serif;
 	font-weight: lighter;
+	font-size: 20px;
 	text-align: left;
 	color: #F9F8F8;
 }
@@ -21,6 +23,7 @@ p {
     text-align:center;
     display:table;
     width: 100%;
+    color: white;
 }
 main {
 	/* important */
@@ -51,7 +54,7 @@ main {
 	background-image: url("../img/bg_static_1.jpg");
 }
 .page-fixed-bg.page-bg-2 {
-	background-image: url("../img/bg_static_1.jpg");
+	background-image: url("../img/bg_static_2.jpg");
 }
 
 .page-color-bg {
